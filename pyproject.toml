@@ -1,0 +1,18 @@
+[project]
+name = "fast-api"
+version = "0.1.0"
+description = "FastAPI backend"
+requires-python = ">=3.11"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi[standard]>=0.141.1",
+    "fastapi-users[sqlalchemy]>=14.0.0",
+    "imagekitio==3.2.0",
+    "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.32",
+    "sqlalchemy>=2.0.52",
+    "uvicorn[standard]>=0.53.0",
+    "streamlit>=1.65.0",
+]
+
+# NOTE: no [build-system], no [project.scripts]
